@@ -14,6 +14,26 @@ reduction, and Matplotlib for the figures.
 - `fig/`: leakage and recovery plots in PDF format.
 - `run.py`, `worker.py`: experiment runner and isolated solver process.
 - `summarize.py`, `plot.py`: result aggregation and plotting.
+- `audit_results.py`, `results/audit/`: portable, post-hoc tables and source hashes.
+- `docs/experiment_records.md`: field definitions, subset selection and evidence limits.
+
+## Audit the stored results without running attacks
+
+This check needs only the Python standard library. It reads the existing
+1,050 records, compares saved outputs with saved evaluation secrets, and
+recreates the supplementary tables. It does not import the attack modules,
+run lattice reduction, or generate new observations.
+
+```bash
+python3 audit_results.py --check
+python3 -m unittest discover -s tests -p 'test_audit_results.py'
+```
+
+To write a separate copy, use `python3 audit_results.py --out work/audit` with
+a new output directory. Original inputs, measurements, summary and figures
+are left unchanged. See [the supplementary summary](results/audit/summary.csv)
+and [measurement notes](docs/experiment_records.md). Missing fields are `NA`;
+interrupted runs are excluded from finished-run timing statistics.
 
 ## Setup
 

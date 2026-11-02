@@ -1,0 +1,40 @@
+{
+  "aggregation_script_sha256": "e8c8192ca1953daf0e9883654c7b5a1ac406cfebed6a5fae0d28c045d4679016",
+  "all_cohorts_three_fixed_secrets_ten_trials": true,
+  "configurations": 35,
+  "input_sha256": {
+    "config/cases.jsonl": "6e34ab9b8bfd3b07067b5e418b0df6a72e0e5b2f68cc1b6f2a968be0099983f9",
+    "config/truth.jsonl": "ed8d23b257934d0886f3e3f621583773650687ed4c73126087e4e895659ff3be",
+    "results/trials.jsonl": "01b502f1930958ceea1ad1dee7dab248882779d7a9b051c843e058b1538f8df1"
+  },
+  "original_constraint_or_quotient_math_reverified": false,
+  "original_inputs_results_or_attacks_modified": false,
+  "publication_base_commit": "4a54acf8b3692c59091e3f4270f388077dd616a1",
+  "publication_base_commit_is_not_a_claim_of_historical_execution_provenance": true,
+  "release_source_sha256_not_measured_code_certificates": {
+    "plot.py": "cb9648a0768dfa0828dab0da1c395703d07afe8f67a5f84cf8a4bd0e1397b6cd",
+    "requirements.txt": "054614a96f896b85fa2c2f04e6e27ad9ae32ea20b850073a4ecca7ab20fa96a7",
+    "run.py": "67ce47eb7f061baf2b5ddb74657e94c67c9dab02a00b438c8ea419e1fc7f3939",
+    "src/babai_fflu.py": "a3f56c3baeb77e25aa02504cd25fcc1d56ad7d69542d0d664c27ce5fd789e36a",
+    "src/baselines_native.py": "acb9e5d2d9e44b921eb098a9bead69dfd924c5dbd7d79bd281accb481bb42aeb",
+    "src/ec_native.py": "635cf5af5a5b11b50015b8cedbe09ec9d8f8ea3732a2cc616f354b8c883d98a0",
+    "src/exact_lll_fallback.py": "96c393363a5f80c68344f62d21fbaedc83738e08dc4e9adaf331e44bcb0f9753",
+    "src/flatter_backend.py": "15b0610da4bd17525907a17d149f4a112b98eb21dca86a1f502373c04e06dafd",
+    "src/hnp_native.py": "730d5023a72bd40003d0764af0ebc0cad0b053a1a95fc56dca6c8883df68b32e",
+    "src/lattice_native.py": "d88eb5f18310ba42e6946bbaa264a2b69a3dbedcd5361a26417eabc931f2ba3c",
+    "src/star_interval.py": "d49bd470376d4e8e0dbc27d252cba2f2ccb09c635f1460a1af2a8cdf0b2e3a15",
+    "src/subinstance.py": "161bd42c5cb00cf0d37ca980b9a0bc99def256573a945024a3c05e3c35a64420",
+    "src/trie_set.py": "bd3404cd73fdaff00c4fdf85d8be87745c31a70a08b6e31d8b22e96c8579004c",
+    "summarize.py": "87414015ab7bd84d62e07253364325e5c4fc633243239c1b541ca26c7d7cd1f7",
+    "worker.py": "0a4c40cdf2a71fe08dbbf4a8f0c0d1f68556b59d8453e954fe33eaf32f4aa59b"
+  },
+  "runs": 1050,
+  "scope": "post-hoc stored-primary-study aggregation; no attack execution",
+  "singleton_true_by_stored_output_truth_equality": 547,
+  "status_counts": {
+    "CENSORED_WORK": 150,
+    "COMPLETE": 240,
+    "NO_CANDIDATE": 353,
+    "RETURNED": 307
+  }
+}
