@@ -43,6 +43,23 @@ python plot.py
 
 The plots are written to `fig/leakage.pdf` and `fig/recovery.pdf`.
 
+## Inspect archived measurements
+
+[Experimental results and measurement definitions](docs/experimental-results.md)
+report the fixed input subsets, 35 stored configurations, four recovery endpoints,
+elapsed-time summaries, and root-termination and node-limit counts.
+The underlying files remain `results/trials.jsonl`, `config/cases.jsonl`,
+and `config/truth.jsonl`.
+
+Recompute the reporting tables using the Python standard library:
+
+```bash
+python3 tools/summarize_archived_results.py --repo-root . --out /tmp/hnp-report
+```
+
+Checked-in tables are in `results/reporting/`. Parent and worker elapsed times
+are reported separately, and interrupted runs are separated from completed runs.
+
 ## Run experiments
 
 Run one stored MIHNP input:
@@ -72,3 +89,4 @@ candidate is checked against the full input. HNPHM uses all 16 pairs.
 The main EC-HNP comparison uses paired queries, with independent-query runs
 included separately. Figure endpoints are the lowest tested leakage levels
 with 30/30 unique recoveries.
+

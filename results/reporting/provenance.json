@@ -1,0 +1,43 @@
+{
+  "execution": "No attack, lattice reduction, decoder, input generation or experiment script is executed",
+  "missing_value": "NA means absent or inapplicable; it is not zero",
+  "schema_version": 1,
+  "scope": "archived_1050_run_release_only",
+  "source_files": {
+    "config/cases.jsonl": {
+      "records": 1050,
+      "sha256": "6e34ab9b8bfd3b07067b5e418b0df6a72e0e5b2f68cc1b6f2a968be0099983f9"
+    },
+    "config/truth.jsonl": {
+      "records": 1050,
+      "sha256": "ed8d23b257934d0886f3e3f621583773650687ed4c73126087e4e895659ff3be"
+    },
+    "results/trials.jsonl": {
+      "records": 1050,
+      "sha256": "01b502f1930958ceea1ad1dee7dab248882779d7a9b051c843e058b1538f8df1"
+    }
+  },
+  "statistics": "n_recorded, median and max; finished, singleton and interrupted are separate",
+  "units": {
+    "elapsed_time": "seconds",
+    "revealed_fraction": "fraction of 384 bits"
+  },
+  "validation": {
+    "censored_with_nodes_4096_and_null_output": 150,
+    "configurations": 35,
+    "inputs_per_secret": 10,
+    "matching_unique_ids": 1050,
+    "ours_completed_with_nodes_1_and_decoder_calls_1": 240,
+    "output_flag_equality_checks": 2700,
+    "runs_per_configuration": 30,
+    "secrets_per_configuration": 3,
+    "singleton_true_recounted": 547,
+    "status_counts": {
+      "CENSORED_WORK": 150,
+      "COMPLETE": 240,
+      "NO_CANDIDATE": 353,
+      "RETURNED": 307
+    }
+  },
+  "verification_scope": "Saved-output/truth equality only; recorded mathematical verification flags are not recomputed"
+}
