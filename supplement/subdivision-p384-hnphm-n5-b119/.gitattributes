@@ -1,0 +1,3 @@
+# Preserve SHA-256-identical evidence even with checkout EOL conversion enabled.
+* -text
+provenance/prior_audit/p384_auxiliary.csv whitespace=cr-at-eol

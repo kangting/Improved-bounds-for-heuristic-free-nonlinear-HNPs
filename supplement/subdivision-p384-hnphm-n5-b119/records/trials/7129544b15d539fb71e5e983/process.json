@@ -1,0 +1,28 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "16",
+    "<HISTORICAL_SAGE_PYTHON>",
+    "<ORIGINAL_WORKSPACE>/lattice/hnp_near_limit_20261022/worker_cells.py",
+    "--public",
+    "<ORIGINAL_WORKSPACE>/lattice/hnp_near_limit_20261022/runs/cells-auxiliary-v1/jobs/7129544b15d539fb71e5e983/public.json",
+    "--out",
+    "<ORIGINAL_WORKSPACE>/lattice/hnp_near_limit_20261022/runs/cells-auxiliary-v1/jobs/7129544b15d539fb71e5e983",
+    "--backend",
+    "flatter-ntl",
+    "--address-space",
+    "8589934592",
+    "--maximum-nodes",
+    "10000",
+    "--maximum-targets",
+    "10000"
+  ],
+  "cpu": 16,
+  "created_utc": "2026-10-22T09:55:36.382404+00:00",
+  "lease": "<ORIGINAL_WORKSPACE>/lattice/hnp_near_limit_20261022/runs/cpu-leases/cpu16.lock",
+  "pid": 3429059,
+  "process_group": 3429059,
+  "solver_sha256": "7ae5a65a14f2acf8f586600cc283bc8003c130071739dc9fcc05c1ee6f96cf67",
+  "worker_sha256": "5317a4a673dd04095e226b9154bec99ffa8faad01621c0a69d589904ee91f4f2"
+}

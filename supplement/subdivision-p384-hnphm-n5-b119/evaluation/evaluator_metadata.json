@@ -1,0 +1,17 @@
+{
+  "all_inputs_regenerated": true,
+  "complete_contains_true": 3,
+  "completed_searches": 3,
+  "created_utc": "2026-10-22T10:09:09.802708+00:00",
+  "evaluator_sha256": "51ad34b2dadd3d15d84299ceec243f5e9eaf58392bd7dd5e9153d34a3ecc3c04",
+  "planned_trials": 18,
+  "private_diagnostics_after_complete_only": true,
+  "raw_sha256": "dae5c3d8b78143f1bafd591a5ac35733dedb9e72c276257cf5dcf1df61985954",
+  "run": "<ORIGINAL_WORKSPACE>/lattice/hnp_near_limit_20261022/runs/cells-auxiliary-v1",
+  "singleton_true": 3,
+  "statuses": {
+    "COMPLETE": 3,
+    "NOT_STARTED": 12,
+    "RESOURCE_LIMITED_PARTIAL": 3
+  }
+}

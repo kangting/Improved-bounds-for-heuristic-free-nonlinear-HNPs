@@ -35,6 +35,11 @@ are left unchanged. See [the supplementary summary](results/audit/summary.csv)
 and [measurement notes](docs/experiment_records.md). Missing fields are `NA`;
 interrupted runs are excluded from finished-run timing statistics.
 
+A separate [P-384 HNPHM subdivision supplement](supplement/subdivision-p384-hnphm-n5-b119/README.md)
+publishes all three pre-existing N=5, b=119 auxiliary inputs, recovered
+integer certificates and a standard-library check-only verification replay.
+It is not pooled with the main N=16 HNPHM success or timing results.
+
 ## Setup
 
 The experiments were run with Python 3.12 on Linux.

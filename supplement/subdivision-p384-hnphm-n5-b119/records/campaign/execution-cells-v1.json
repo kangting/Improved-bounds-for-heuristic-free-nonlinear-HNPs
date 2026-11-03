@@ -1,0 +1,20 @@
+{
+  "cpus": [
+    16,
+    18
+  ],
+  "created_utc": "2026-10-22T09:53:39.979501+00:00",
+  "global_slots_including_preserved_preparation": 3,
+  "maximum_nodes": 10000,
+  "maximum_target_fallback": 10000,
+  "per_job_timeout_seconds": null,
+  "pid": 3426826,
+  "shared_campaign_clock": {
+    "boot_id": "<HISTORICAL_BOOT_ID>",
+    "budget_seconds": 86400,
+    "campaign_deadline_monotonic": 5453952.879955978,
+    "campaign_start_monotonic": 5367552.879955978,
+    "created_utc": "2026-10-22T08:44:53.806715+00:00"
+  },
+  "source_worker_receives_no_private_opening": true
+}
